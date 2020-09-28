@@ -1,7 +1,8 @@
 package com.unittest.testing;
+
 public class Fahrenheit {
 	private double celcius;
-
+	
 	public double getCelcius() {
 		return celcius;
 	}
@@ -14,10 +15,9 @@ public class Fahrenheit {
 		boolean isResult;
 		if(celcius >= -1000 && celcius <= 1000) {
 			isResult = true;
-		}else {
+		}else{
 			isResult = false;
 		}
 		return isResult;
-		
 	}
 }
